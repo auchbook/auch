@@ -1,0 +1,84 @@
+/* Estilos gerais */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+    font-family: 'Desire Pro', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 25px; /* Bordas arredondadas */
+    background-color: orange;
+    color: black;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: darkorange;
+    transform: scale(1.05); /* Leve aumento ao passar o mouse */
+}
+
+.inscricao-container, .login-container {
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    background: url('fundologin.jpg') no-repeat center center; /* Fundo personalizado */
+    background-size: cover;
+    padding: 20px;
+    border-radius: 15px; /* Borda arredondada */
+    opacity: 0.9; /* Leve transparência */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.profile-selector {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.profile-image img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+#left-arrow, #right-arrow {
+    background: none;
+    color: white;
+    font-size: 2em;
+    cursor: pointer;
+}
